@@ -281,8 +281,8 @@ export default function HackBnB() {
   return (
     <>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-        <div>
-          <p><b>Hackbnb</b></p>
+        <div style="display: flex; align-items: center; gap: 2px">
+          <img height="28" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/734cbd558d4a5557e65f20597b5acf17a8e7ee9e_chatgpt_image_26._juni_2025__23_13_35-removebg-preview.png" alt="logo"><p><b>Hackbnb</b></p>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
           {hasToken && (
