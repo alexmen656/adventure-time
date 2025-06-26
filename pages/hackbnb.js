@@ -430,7 +430,7 @@ export default function HackBnB() {
                         {confirmed.length > 0 && (
                           <div style={{ marginBottom: '10px' }}>
                             <p style={{ margin: '0 0 5px 0', fontWeight: '500', fontSize: '14px' }}>Roommates:</p>
-                            <ul style={{ margin: '0', paddingLeft: '20px' }}>
+                            <ul style={{ margin: '0', listStyleType: 'none', paddingLeft: '10px' }}>
                               {confirmed.map(stay => (
                                 <li key={stay.id} style={{ marginBottom: '5px' }}>
                                   <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -463,7 +463,7 @@ export default function HackBnB() {
                         {pending.length > 0 && (
                           <div>
                             <p style={{ margin: '0 0 5px 0', fontWeight: '500', fontSize: '14px' }}>Pending Bookings:</p>
-                            <ul style={{ margin: '0', paddingLeft: '20px' }}>
+                            <ul style={{ margin: '0', listStyleType: 'none', paddingLeft: '10px' }}>
                               {pending.map(stay => (
                                 <li key={stay.id} style={{ marginBottom: '5px' }}>
                                   <div style={{ display: 'flex', alignItems: 'center' }}>
